@@ -1,0 +1,25 @@
+body {
+    background-color: lightblue;
+}
+
+div {
+    font-size: 20px;
+}
+
+h2 {
+    text-decoration: underline;
+    color: white;
+}
+
+.p1 {
+    color: navy;
+}
+
+.p2 {
+    text-transform: uppercase;
+    text-align: justify;
+}
+
+.p3 {
+    font-size: 12px;
+}

@@ -1,0 +1,44 @@
+body {
+    background-color: #E0E0E0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    background-color: #2196F3;
+    color: white;
+    text-align: center;
+}
+
+div.contenido {
+    margin: 0 autor;
+    width: 80%;
+}
+
+p {
+    font-size: 18px;
+}
+
+.cuento {
+    color: navy;
+    text-align: justify;
+}
+
+.parrfo1 {
+    font-family: 'Courier New', monospace;
+}
+
+.parrfo2 {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.parrfo3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div.autor {
+    font-style: italic;
+}
+
+p.julio {
+    font-size: 14px;
+}

@@ -1,0 +1,90 @@
+body {
+    font-family: 'UnifrakturMaguntia', serif;
+}
+
+.main-title {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.subtitle {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.section-pelicula {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10px auto;
+}
+
+.article-pelicula {
+    max-width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+}
+
+.div-pelicula {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    max-width: 400px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.image-pelicula {
+    width: 100%;
+    height: auto;
+    display: block;
+    z-index: 1;
+    transition: z-index 0.3s;
+}
+
+.frase-pelicula {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+
+    color: white;
+    opacity: 0; 
+    background-color: transparent;
+    transition: opacity 0.4s ease, background-color 0.4s ease, width 0.4s ease, height 0.4s ease;
+}
+
+.div-pelicula:hover .frase-pelicula {
+    opacity: 1;
+    background-color: black;
+    width: 105%;
+    height: 105%;
+}
+
+.titulo-pelicula {
+    font-size: 1.2em;
+}
+
+.desc-pelicula {
+    font-size: 0.95em;
+    max-width: 200px;
+}
+
+footer {
+    text-align: center;
+}
