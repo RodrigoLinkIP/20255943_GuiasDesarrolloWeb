@@ -2,6 +2,12 @@ body {
     font-family: 'UnifrakturMaguntia', serif;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
 .main-title {
     font-size: 3em;
     text-align: center;
