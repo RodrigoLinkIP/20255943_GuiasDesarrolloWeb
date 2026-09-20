@@ -112,3 +112,41 @@ a:active {
     background-color: var(--color-principal);
 }
 
+
+/* ESTILOS PARA PÁGINA ERROR */
+.error-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.error-contenido h2 {
+    font-size: 5rem;
+    color: var(--color-principal);
+    margin-bottom: 10px;
+}
+
+.error-contenido h3 {
+    font-size: 1.8rem;
+    color: var(--color-texto);
+    margin-top: 15px;
+}
+
+.error-contenido p {
+    color: var(--color-texto);
+    margin-top: 10px;
+    max-width: 500px;
+}
+
+.error-contenido img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+}
