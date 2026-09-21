@@ -108,6 +108,8 @@ nav a:active {
 .historia-contenido {
     display: flex;
     justify-content: space-around;
+    gap: 30px;
+    margin: 0 20px;
 }
 
 .historia-texto {
