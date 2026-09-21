@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bienes Raíces en El Salvador: casas, apartamentos y terrenos | Clasificados .ST</title>
+
+    <meta name="description" content="Anuncios de compra, venta y alquiler de casas, apartamentos y terrenos en El Salvador.">
+
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script>document.documentElement.classList.add('js');</script>
+    <script src="scripts/script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Sprite de iconos (trazo monocromo) -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true" focusable="false">
+        <symbol id="i-house" viewBox="0 0 24 24"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></symbol>
+        <symbol id="i-building" viewBox="0 0 24 24"><path d="M5 21V4h9v17"/><path d="M14 9h5v12"/><path d="M8 8h3M8 12h3M8 16h3"/><path d="M3 21h18"/></symbol>
+        <symbol id="i-land" viewBox="0 0 24 24"><path d="M3 18l6-9 4 6 3-4 5 7z"/><path d="M3 21h18"/></symbol>
+        <symbol id="i-store" viewBox="0 0 24 24"><path d="M4 9l1-5h14l1 5"/><path d="M4 9v11h16V9"/><path d="M4 9c0 2 2 3 4 3s4-1 4-3c0 2 2 3 4 3s4-1 4-3"/><path d="M10 20v-5h4v5"/></symbol>
+        <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0114 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+        <symbol id="i-car" viewBox="0 0 24 24"><path d="M5 17H3v-5l2-5h14l2 5v5h-2"/><path d="M3 12h18"/><circle cx="7.5" cy="17" r="1.8"/><circle cx="16.5" cy="17" r="1.8"/><path d="M9.3 17h5.4"/></symbol>
+        <symbol id="i-laptop" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="11" rx="2"/><path d="M2 20h20"/></symbol>
+        <symbol id="i-phone" viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2.5"/><path d="M11 18h2"/></symbol>
+        <symbol id="i-sofa" viewBox="0 0 24 24"><path d="M6 11V8a2 2 0 012-2h8a2 2 0 012 2v3"/><path d="M4 11a2 2 0 012 2v3h12v-3a2 2 0 012-2 2 2 0 012 2v5H2v-5a2 2 0 012-2z"/><path d="M6 19v2M18 19v2"/></symbol>
+        <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+        <symbol id="i-chevron" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></symbol>
+        <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+        <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+    </svg>
+
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+
+    <!-- =========================================================
+         HEADER
+    ========================================================== -->
+    <header class="site-header">
+        <div class="header-inner container">
+
+            <a class="brand" href="index.html" title="Ir a página de Inicio">
+                <span class="brand-name">clasificados<span class="brand-dot">.</span>st</span>
+                <span class="brand-country">El Salvador</span>
+            </a>
+
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Abrir menú">
+                <svg class="icon i-open" aria-hidden="true"><use href="#i-menu"/></svg>
+                <svg class="icon i-close" aria-hidden="true"><use href="#i-close"/></svg>
+            </button>
+
+            <div class="site-menu" id="site-menu">
+                <nav class="main-nav" aria-label="Principal">
+                    <a href="index.html">Inicio</a>
+                    <a href="bienes-raices.html" aria-current="page">Bienes Raíces</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+
+                <div class="header-actions">
+                    <a class="link-quiet" rel="nofollow" href="https://sv.clasificados.st/login?orig=https://sv.clasificados.st/">Iniciar sesión</a>
+                    <a class="btn btn-secondary btn-sm" rel="nofollow" href="https://sv.clasificados.st/reg">Registro</a>
+                    <a class="btn btn-primary btn-sm" href="https://sv.clasificados.st/bienes_raices">Publicar anuncio</a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+
+    <main id="contenido" class="container">
+
+        <nav aria-label="Ruta de navegación">
+            <ol class="breadcrumb">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html#categorias">Categorías</a></li>
+                <li aria-current="page">Bienes Raíces</li>
+            </ol>
+        </nav>
+
+        <div class="page-head">
+            <h1>Bienes Raíces</h1>
+            <p class="lead">
+                ¿Quiere comprar o vender una casa, un apartamento o unos terrenos?
+                ¿Está buscando un apartamento a buen precio o de alquiler?
+                Entre aquí, publique gratis su anuncio y multiplique sus posibilidades
+                de conseguir lo que quiere.
+            </p>
+            <p class="pill-note">Los anuncios que se muestran a continuación son ejemplos de la interfaz.</p>
+        </div>
+
+
+        <div class="results-layout">
+
+            <!-- ==================== FILTROS ==================== -->
+            <details class="filters" open>
+                <summary>
+                    Filtrar anuncios
+                    <svg class="icon icon-md" aria-hidden="true"><use href="#i-chevron"/></svg>
+                </summary>
+
+                <form id="filters-form" class="filters-body" role="search" aria-label="Filtros de anuncios">
+
+                    <div class="field">
+                        <label for="q">Buscar en Bienes Raíces</label>
+                        <input class="input" id="q" name="q" type="search" placeholder="Palabra clave" autocomplete="off">
+                    </div>
+
+                    <fieldset class="field">
+                        <legend>Operación</legend>
+                        <div class="choice-row">
+                            <label class="choice"><input type="radio" name="op" value="" checked><span>Todas</span></label>
+                            <label class="choice"><input type="radio" name="op" value="venta"><span>Venta</span></label>
+                            <label class="choice"><input type="radio" name="op" value="alquiler"><span>Alquiler</span></label>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="field">
+                        <legend>Tipo de inmueble</legend>
+                        <div class="choice-row">
+                            <label class="choice"><input type="radio" name="tipo" value="" checked><span>Todos</span></label>
+                            <label class="choice"><input type="radio" name="tipo" value="casa"><span>Casas</span></label>
+                            <label class="choice"><input type="radio" name="tipo" value="apartamento"><span>Apartamentos</span></label>
+                            <label class="choice"><input type="radio" name="tipo" value="terreno"><span>Terrenos</span></label>
+                            <label class="choice"><input type="radio" name="tipo" value="local"><span>Locales</span></label>
+                        </div>
+                    </fieldset>
+
+                    <div class="field">
+                        <label for="zona">Zona</label>
+                        <select class="select" id="zona" name="zona">
+                            <option value="">Todo El Salvador</option>
+                            <option value="san-salvador">San Salvador</option>
+                            <option value="santa-tecla">Santa Tecla</option>
+                            <option value="antiguo-cuscatlan">Antiguo Cuscatlán</option>
+                            <option value="soyapango">Soyapango</option>
+                            <option value="santa-ana">Santa Ana</option>
+                            <option value="san-miguel">San Miguel</option>
+                            <option value="la-libertad">La Libertad</option>
+                            <option value="suchitoto">Suchitoto</option>
+                        </select>
+                    </div>
+
+                    <button class="btn btn-secondary" id="reset-filters" type="button">Limpiar filtros</button>
+
+                </form>
+            </details>
+
+
+            <!-- ==================== RESULTADOS ==================== -->
+            <section aria-labelledby="results-title">
+
+                <div class="results-bar">
+                    <h2 class="results-count" id="results-title"><span id="ad-count" role="status" aria-live="polite">9 anuncios</span></h2>
+
+                    <div class="sort-control">
+                        <label for="sort">Ordenar por</label>
+                        <select class="select" id="sort" name="sort">
+                            <option value="reciente">Más recientes</option>
+                            <option value="precio-asc">Precio: menor a mayor</option>
+                            <option value="precio-desc">Precio: mayor a menor</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="ad-grid reveal-group" id="ad-grid">
+
+                    <article class="ad-card reveal" data-op="venta" data-tipo="casa" data-zona="santa-tecla" data-precio="185000" data-fecha="9">
+                        <div class="ad-tile">
+                            <span class="ad-tag">Venta</span>
+                            <svg class="icon" aria-hidden="true"><use href="#i-house"/></svg>
+                        </div>
+                        <div class="ad-body">
+                            <p class="ad-price">$185,000</p>
+                            <h3 class="ad-title"><a href="https://sv.clasificados.st/bienes_raices">Casa de dos niveles en residencial privado</a></h3>
+                            <p class="ad-place"><svg class="icon icon-sm" aria-hidden="true"><use href="#i-pin"/></svg> Santa Tecla, La Libertad</p>
+                            <p class="ad-meta">220 m² · 4 hab. · 3 baños</p>
+                        </div>
+                    </article>
+
+                    <article class="ad-card reveal" data-op="alquiler" data-tipo="apartamento" data-zona="antiguo-cuscatlan" data-precio="650" data-fecha="8">
+                        <div class="ad-tile">
+                            <span class="ad-tag">Alquiler</span>
+                            <svg class="icon" aria-hidden="true"><use href="#i-building"/></svg>
+                        </div>
+                        <div class="ad-body">
+                            <p class="ad-price">$650 <small>/ mes</small></p>
+                            <h3 class="ad-title"><a href="https://sv.clasificados.st/bienes_raices">Apartamento amueblado cerca de la universidad</a></h3>
+                            <p class="ad-place"><svg class="icon icon-sm" aria-hidden="true"><use href="#i-pin"/></svg> Antiguo Cuscatlán, La Libertad</p>
+                            <p class="ad-meta">78 m² · 2 hab. · 2 baños</p>
+                        </div>
+                    </article>
+
+                    <article class="ad-card reveal" data-op="venta" data-tipo="terreno" data-zona="san-miguel" data-precio="64000" data-fecha="7">
+                        <div class="ad-tile">
+                            <span class="ad-tag">Venta</span>
+                            <svg class="icon" aria-hidden="true"><use href="#i-land"/></svg>
+                        </div>
+                        <div class="ad-body">
+                            <p class="ad-price">$64,000</p>
+                            <h3 class="ad-title"><a href="https://sv.clasificados.st/bienes_raices">Terreno plano con acceso pavimentado</a></h3>
+                            <p class="ad-place"><svg class="icon icon-sm" aria-hidden="true"><use href="#i-pin"/></svg> San Miguel</p>
+                            <p class="ad-meta">1,200 m²</p>
+                        </div>
+                    </article>
+
+                    <article class="ad-card reveal" data-op="alquiler" data-tipo="local" data-zona="san-salvador" data-precio="1200" data-fecha="6">
+                        <div class="ad-tile">
+                            <span class="ad-tag">Alquiler</span>
+                            <svg class="icon" aria-hidden="true"><use href="#i-store"/></svg>
+                        </div>
+                        <div class="ad-body">
+                            <p class="ad-price">$1,200 <small>/ mes</small></p>
+                            <h3 class="ad-title"><a href="https://sv.clasificados.st/bienes_raices">Local comercial sobre avenida principal</a></h3>
+                            <p class="ad-place"><svg class="icon icon-sm" aria-hidden="true"><use href="#i-pin"/></svg> San Salvador</p>
+                            <p class="ad-meta">90 m² · 2 parqueos</p>
+                        </div>
+                    </article>
+
+                    <article class="ad-card reveal" data-op="venta" data-tipo="casa" data-zona="suchitoto" data-precio="240000" data-fecha="5">
+                        <div class="ad-tile">
+                            <span class="ad-tag">Venta</span>
+                            <svg class="icon" aria-hidden="true"><use href="#i-house"/></svg>
+                        </div>
+                        <div class="ad-body">
+                            <p class="ad-price">$240,000</p>
+                            <h3 class="ad-title"><a href="https://sv.clasificados.st/bienes_raices">Casa con piscina y vista al lago</a></h3>
+                            <p class="ad-place"><svg class="icon icon-sm" aria-hidden="true"><use href="#i-pin"/></svg> Suchitoto, Cuscatlán</p>
+                            <p class="ad-meta">300 m² · 4 hab. · 3 baños</p>
+                        </div>
+                    </article>
+
+                    <article class="ad-card reveal" data-op="venta" data-tipo="apartamento" data-zona="san-salvador" data-precio="172000" data-fecha="4">
+                        <div class="ad-tile">
+                            <span class="ad-tag">Venta</span>
+                            <svg class="icon" aria-hidden="true"><use href="#i-building"/></svg>
+                        </div>
+                        <div class="ad-body">
+                            <p class="ad-price">$172,000</p>
+                            <h3 class="ad-title"><a href="https://sv.clasificados.st/bienes_raices">Apartamento nuevo con parqueo y terraza</a></h3>
+                            <p class="ad-place"><svg class="icon icon-sm" aria-hidden="true"><use href="#i-pin"/></svg> Colonia Escalón, San Salvador</p>
+                            <p class="ad-meta">95 m² · 2 hab. · 2 baños</p>
+                        </div>
+                    </article>
+
+                    <article class="ad-card reveal" data-op="venta" data-tipo="casa" data-zona="soyapango" data-precio="78000" data-fecha="3">
+                        <div class="ad-tile">
+                            <span class="ad-tag">Venta</span>
+                            <svg class="icon" aria-hidden="true"><use href="#i-house"/></svg>
+                        </div>
+                        <div class="ad-body">
+                            <p class="ad-price">$78,000</p>
+                            <h3 class="ad-title"><a href="https://sv.clasificados.st/bienes_raices">Casa pequeña ideal para remodelar</a></h3>
+                            <p class="ad-place"><svg class="icon icon-sm" aria-hidden="true"><use href="#i-pin"/></svg> Soyapango, San Salvador</p>
+                            <p class="ad-meta">120 m² · 3 hab. · 1 baño</p>
+                        </div>
+                    </article>
+
+                    <article class="ad-card reveal" data-op="alquiler" data-tipo="apartamento" data-zona="santa-ana" data-precio="380" data-fecha="2">
+                        <div class="ad-tile">
+                            <span class="ad-tag">Alquiler</span>
+                            <svg class="icon" aria-hidden="true"><use href="#i-building"/></svg>
+                        </div>
+                        <div class="ad-body">
+                            <p class="ad-price">$380 <small>/ mes</small></p>
+                            <h3 class="ad-title"><a href="https://sv.clasificados.st/bienes_raices">Apartamento de una habitación, zona céntrica</a></h3>
+                            <p class="ad-place"><svg class="icon icon-sm" aria-hidden="true"><use href="#i-pin"/></svg> Santa Ana</p>
+                            <p class="ad-meta">48 m² · 1 hab. · 1 baño</p>
+                        </div>
+                    </article>
+
+                    <article class="ad-card reveal" data-op="venta" data-tipo="terreno" data-zona="la-libertad" data-precio="310000" data-fecha="1">
+                        <div class="ad-tile">
+                            <span class="ad-tag">Venta</span>
+                            <svg class="icon" aria-hidden="true"><use href="#i-land"/></svg>
+                        </div>
+                        <div class="ad-body">
+                            <p class="ad-price">$310,000</p>
+                            <h3 class="ad-title"><a href="https://sv.clasificados.st/bienes_raices">Terreno para desarrollo cerca de la costa</a></h3>
+                            <p class="ad-place"><svg class="icon icon-sm" aria-hidden="true"><use href="#i-pin"/></svg> La Libertad</p>
+                            <p class="ad-meta">4,500 m²</p>
+                        </div>
+                    </article>
+
+                </div>
+
+                <div id="ad-empty" class="empty-state" hidden>
+                    <strong>No hay anuncios con esos filtros</strong>
+                    Pruebe con otra zona o tipo de inmueble, o limpie los filtros.
+                </div>
+
+            </section>
+
+        </div>
+
+
+        <!-- =====================================================
+             PUBLICAR
+        ====================================================== -->
+        <section class="section" aria-labelledby="publicar-title">
+            <div class="publish-card">
+                <div>
+                    <h2 id="publicar-title">¿Quiere vender o alquilar un inmueble?</h2>
+                    <p>Publique gratis su anuncio en Bienes Raíces. No necesita registrarse.</p>
+                </div>
+                <a class="btn btn-primary" href="https://sv.clasificados.st/bienes_raices">Publicar anuncio</a>
+            </div>
+        </section>
+
+
+        <!-- =====================================================
+             OTRAS CATEGORÍAS
+        ====================================================== -->
+        <section class="section" aria-labelledby="otras-title">
+
+            <div class="section-head">
+                <h2 id="otras-title">Explore otras categorías</h2>
+                <a class="section-link" href="index.html#categorias">
+                    Ver todas
+                    <svg class="icon icon-md" aria-hidden="true"><use href="#i-chevron"/></svg>
+                </a>
+            </div>
+
+            <div class="chip-row" style="justify-content:flex-start">
+                <a class="chip" href="https://sv.clasificados.st/autos">
+                    <span class="chip-icon"><svg class="icon" aria-hidden="true"><use href="#i-car"/></svg></span>
+                    Autos
+                </a>
+                <a class="chip" href="https://sv.clasificados.st/computacion">
+                    <span class="chip-icon"><svg class="icon" aria-hidden="true"><use href="#i-laptop"/></svg></span>
+                    Computación
+                </a>
+                <a class="chip" href="https://sv.clasificados.st/telefonia">
+                    <span class="chip-icon"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg></span>
+                    Telefonía
+                </a>
+                <a class="chip" href="https://sv.clasificados.st/hogar">
+                    <span class="chip-icon"><svg class="icon" aria-hidden="true"><use href="#i-sofa"/></svg></span>
+                    Hogar
+                </a>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================================================
+         FOOTER
+    ========================================================== -->
+    <footer class="site-footer">
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <div class="footer-brand">
+                    <a class="brand" href="index.html">
+                        <span class="brand-name">clasificados<span class="brand-dot">.</span>st</span>
+                        <span class="brand-country">El Salvador</span>
+                    </a>
+                    <p>
+                        Clasificados.st es un sistema <strong>gratuito, rápido y simple</strong>
+                        de anuncios clasificados. No precisamos que se registre porque no usamos
+                        sus datos ni correos con fines publicitarios.
+                    </p>
+                </div>
+
+                <nav class="footer-col" aria-label="Explorar">
+                    <h2>Explorar</h2>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="bienes-raices.html">Bienes Raíces</a></li>
+                        <li><a href="https://sv.clasificados.st/index_ex">Todas las categorías</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+
+                <nav class="footer-col" aria-label="Ayuda">
+                    <h2>Ayuda</h2>
+                    <ul>
+                        <li><a href="https://sv.clasificados.st/ayuda" data-popup="450x400" data-name="AYUDA" target="_blank" rel="noopener">Ayuda</a></li>
+                        <li><a href="https://sv.clasificados.st/ayuda?t=6&amp;p=4" data-popup="450x400" data-name="¿Quiénes Somos?" target="_blank" rel="noopener">¿Quiénes somos?</a></li>
+                        <li><a href="https://sv.clasificados.st/ayuda?t=6" data-popup="450x400" data-name="AYUDA" target="_blank" rel="noopener">Condiciones de uso</a></li>
+                        <li><a href="https://sv.clasificados.st/ayuda?t=6&amp;p=5" data-popup="450x400" data-name="Política de Privacidad" target="_blank" rel="noopener">Política de privacidad</a></li>
+                    </ul>
+                </nav>
+
+                <nav class="footer-col" aria-label="Cuenta">
+                    <h2>Su cuenta</h2>
+                    <ul>
+                        <li><a rel="nofollow" href="https://sv.clasificados.st/login?orig=https://sv.clasificados.st/">Iniciar sesión</a></li>
+                        <li><a rel="nofollow" href="https://sv.clasificados.st/reg">Registro</a></li>
+                        <li><a href="https://sv.clasificados.st/ayuda?t=5&amp;p=3" data-popup="500x500" data-name="Enlázanos" target="_blank" rel="noopener">¡Enlázanos!</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    Clasificados.st NO se hace responsable de los anuncios publicados; esta responsabilidad
+                    es única y exclusivamente de sus autores.
+                    Alguna duda, sugerencia… <a href="contacto.html">contacte con nosotros</a>.
+                </p>
+                <a rel="nofollow" href="https://sv.clasificados.st/display/ancho">Vista PC (sitio original)</a>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto y sugerencias | Clasificados .ST El Salvador</title>
+
+    <meta name="description" content="¿Alguna duda o sugerencia? Contacte con Clasificados.st El Salvador.">
+
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script>document.documentElement.classList.add('js');</script>
+    <script src="scripts/script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Sprite de iconos (trazo monocromo) -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true" focusable="false">
+        <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+        <symbol id="i-chevron" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></symbol>
+        <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+        <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+        <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+    </svg>
+
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+
+    <!-- =========================================================
+         HEADER
+    ========================================================== -->
+    <header class="site-header">
+        <div class="header-inner container">
+
+            <a class="brand" href="index.html" title="Ir a página de Inicio">
+                <span class="brand-name">clasificados<span class="brand-dot">.</span>st</span>
+                <span class="brand-country">El Salvador</span>
+            </a>
+
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Abrir menú">
+                <svg class="icon i-open" aria-hidden="true"><use href="#i-menu"/></svg>
+                <svg class="icon i-close" aria-hidden="true"><use href="#i-close"/></svg>
+            </button>
+
+            <div class="site-menu" id="site-menu">
+                <nav class="main-nav" aria-label="Principal">
+                    <a href="index.html">Inicio</a>
+                    <a href="bienes-raices.html">Bienes Raíces</a>
+                    <a href="contacto.html" aria-current="page">Contacto</a>
+                </nav>
+
+                <div class="header-actions">
+                    <a class="link-quiet" rel="nofollow" href="https://sv.clasificados.st/login?orig=https://sv.clasificados.st/">Iniciar sesión</a>
+                    <a class="btn btn-secondary btn-sm" rel="nofollow" href="https://sv.clasificados.st/reg">Registro</a>
+                    <a class="btn btn-primary btn-sm" href="index.html#categorias">Publicar anuncio</a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+
+    <main id="contenido" class="container">
+
+        <nav aria-label="Ruta de navegación">
+            <ol class="breadcrumb">
+                <li><a href="index.html">Inicio</a></li>
+                <li aria-current="page">Contacto</li>
+            </ol>
+        </nav>
+
+        <div class="page-head">
+            <h1>Contacto y sugerencias</h1>
+            <p class="lead">
+                ¿Alguna duda o sugerencia? Escríbanos. Solo usamos su correo para responderle:
+                no lo utilizamos con fines publicitarios.
+            </p>
+        </div>
+
+
+        <div class="contact-layout">
+
+            <!-- ==================== FORMULARIO ==================== -->
+            <div>
+                <section class="card" id="contact-card" aria-labelledby="form-title">
+
+                    <div id="contact-intro">
+                        <h2 id="form-title">Envíenos un mensaje</h2>
+                        <p class="card-sub">Los campos marcados con * son obligatorios.</p>
+                    </div>
+
+                    <form id="contact-form" novalidate>
+                        <div class="form-grid">
+
+                            <fieldset class="field span-2">
+                                <legend>Motivo del mensaje</legend>
+                                <div class="choice-row">
+                                    <label class="choice"><input type="radio" name="motivo" value="duda" checked><span>Duda</span></label>
+                                    <label class="choice"><input type="radio" name="motivo" value="sugerencia"><span>Sugerencia</span></label>
+                                    <label class="choice"><input type="radio" name="motivo" value="anuncio"><span>Problema con un anuncio</span></label>
+                                    <label class="choice"><input type="radio" name="motivo" value="otro"><span>Otro</span></label>
+                                </div>
+                            </fieldset>
+
+                            <div class="field">
+                                <label for="nombre">Nombre (opcional)</label>
+                                <input class="input" id="nombre" name="nombre" type="text" autocomplete="name" placeholder="Su nombre">
+                            </div>
+
+                            <div class="field">
+                                <label for="email">Correo electrónico *</label>
+                                <input
+                                    class="input"
+                                    id="email"
+                                    name="email"
+                                    type="email"
+                                    autocomplete="email"
+                                    placeholder="nombre@correo.com"
+                                    aria-required="true"
+                                    aria-describedby="email-error"
+                                >
+                                <p class="field-error" id="email-error" role="alert"></p>
+                            </div>
+
+                            <div class="field span-2">
+                                <label for="categoria">Categoría relacionada</label>
+                                <select class="select" id="categoria" name="categoria">
+                                    <option value="">No aplica</option>
+                                    <option>Bienes Raíces</option>
+                                    <option>Autos</option>
+                                    <option>Náutica</option>
+                                    <option>Aeronáutica / Aviación</option>
+                                    <option>Computación</option>
+                                    <option>Consolas y Videojuegos</option>
+                                    <option>Telefonía Celular/Móvil</option>
+                                    <option>Imagen y Sonido</option>
+                                    <option>Música e Instrumentos Musicales</option>
+                                    <option>Fotografía y Óptica</option>
+                                    <option>Deportes</option>
+                                    <option>Hogar / Enseres / Electrodomésticos / Ropa</option>
+                                    <option>Animales</option>
+                                    <option>Coleccionismo</option>
+                                    <option>Joyería y Relojería</option>
+                                    <option>Ocio</option>
+                                    <option>Arte y Artesanía</option>
+                                    <option>Antigüedades y Objetos Antiguos</option>
+                                </select>
+                            </div>
+
+                            <div class="field span-2">
+                                <label for="mensaje">Mensaje *</label>
+                                <textarea
+                                    class="textarea"
+                                    id="mensaje"
+                                    name="mensaje"
+                                    maxlength="1000"
+                                    placeholder="Cuéntenos su duda o sugerencia…"
+                                    aria-required="true"
+                                    aria-describedby="mensaje-error"
+                                ></textarea>
+                                <span class="field-counter" id="msg-count" aria-hidden="true">0 / 1000</span>
+                                <p class="field-error" id="mensaje-error" role="alert"></p>
+                            </div>
+
+                            <div class="field span-2">
+                                <label class="check" for="acepto">
+                                    <input type="checkbox" id="acepto" name="acepto" aria-describedby="acepto-error">
+                                    <span>
+                                        He leído y acepto las
+                                        <a href="https://sv.clasificados.st/ayuda?t=6" data-popup="450x400" data-name="AYUDA" target="_blank" rel="noopener">Condiciones de uso</a>
+                                        y la
+                                        <a href="https://sv.clasificados.st/ayuda?t=6&amp;p=5" data-popup="450x400" data-name="Política de Privacidad" target="_blank" rel="noopener">Política de privacidad</a>.
+                                    </span>
+                                </label>
+                                <p class="field-error" id="acepto-error" role="alert"></p>
+                            </div>
+
+                            <div class="form-actions span-2">
+                                <button class="btn btn-primary" type="submit">
+                                    Enviar mensaje
+                                    <svg class="icon icon-md" aria-hidden="true"><use href="#i-arrow"/></svg>
+                                </button>
+                                <span class="form-note">Respondemos al correo que nos indique.</span>
+                            </div>
+
+                        </div>
+                    </form>
+
+                    <div id="contact-success" class="success-panel" hidden>
+                        <div class="success-icon"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></div>
+                        <h2 tabindex="-1">¡Gracias por escribirnos!</h2>
+                        <p>
+                            Hemos recibido su mensaje. Demostración: en esta versión de la interfaz
+                            el formulario todavía no envía datos a un servidor.
+                        </p>
+                        <button class="btn btn-secondary" id="send-another" type="button">Enviar otro mensaje</button>
+                    </div>
+
+                </section>
+            </div>
+
+
+            <!-- ==================== AYUDA ==================== -->
+            <aside aria-label="Ayuda rápida">
+
+                <section class="card faq" aria-labelledby="faq-title">
+                    <h2 id="faq-title">Respuestas rápidas</h2>
+                    <p class="card-sub">Quizá su duda ya esté resuelta.</p>
+
+                    <details>
+                        <summary>
+                            ¿Necesito registrarme para publicar?
+                            <svg class="icon icon-md" aria-hidden="true"><use href="#i-chevron"/></svg>
+                        </summary>
+                        <p>No. No precisamos que se registre porque no usamos sus datos ni correos con fines publicitarios.</p>
+                    </details>
+
+                    <details>
+                        <summary>
+                            ¿Cuánto cuesta publicar un anuncio?
+                            <svg class="icon icon-md" aria-hidden="true"><use href="#i-chevron"/></svg>
+                        </summary>
+                        <p>Nada. Clasificados.st es un sistema gratuito, rápido y simple de anuncios clasificados.</p>
+                    </details>
+
+                    <details>
+                        <summary>
+                            ¿Quién es responsable de los anuncios?
+                            <svg class="icon icon-md" aria-hidden="true"><use href="#i-chevron"/></svg>
+                        </summary>
+                        <p>Clasificados.st no se hace responsable de los anuncios publicados; esa responsabilidad es única y exclusivamente de sus autores.</p>
+                    </details>
+
+                    <details>
+                        <summary>
+                            ¿Cómo publico en la categoría correcta?
+                            <svg class="icon icon-md" aria-hidden="true"><use href="#i-chevron"/></svg>
+                        </summary>
+                        <p>Elija la categoría desde la <a href="index.html#categorias">página de inicio</a> y publique desde allí. Si no sabe cuál elegir, consulte todas las categorías y subcategorías.</p>
+                    </details>
+                </section>
+
+                <section class="card" aria-labelledby="links-title">
+                    <h2 id="links-title">Más información</h2>
+
+                    <ul class="link-list">
+                        <li>
+                            <a href="https://sv.clasificados.st/ayuda" data-popup="450x400" data-name="AYUDA" target="_blank" rel="noopener">
+                                Sistema de ayuda
+                                <svg class="icon icon-md" aria-hidden="true"><use href="#i-chevron"/></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://sv.clasificados.st/ayuda?t=6&amp;p=4" data-popup="450x400" data-name="¿Quiénes Somos?" target="_blank" rel="noopener">
+                                ¿Quiénes somos?
+                                <svg class="icon icon-md" aria-hidden="true"><use href="#i-chevron"/></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://sv.clasificados.st/ayuda?t=5&amp;p=3" data-popup="500x500" data-name="Enlázanos" target="_blank" rel="noopener">
+                                ¡Enlázanos!
+                                <svg class="icon icon-md" aria-hidden="true"><use href="#i-chevron"/></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://sv.clasificados.st/sugerencia" rel="nofollow">
+                                Formulario original de sugerencias
+                                <svg class="icon icon-md" aria-hidden="true"><use href="#i-chevron"/></svg>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+
+            </aside>
+
+        </div>
+
+    </main>
+
+
+    <!-- =========================================================
+         FOOTER
+    ========================================================== -->
+    <footer class="site-footer">
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <div class="footer-brand">
+                    <a class="brand" href="index.html">
+                        <span class="brand-name">clasificados<span class="brand-dot">.</span>st</span>
+                        <span class="brand-country">El Salvador</span>
+                    </a>
+                    <p>
+                        Clasificados.st es un sistema <strong>gratuito, rápido y simple</strong>
+                        de anuncios clasificados. No precisamos que se registre porque no usamos
+                        sus datos ni correos con fines publicitarios.
+                    </p>
+                </div>
+
+                <nav class="footer-col" aria-label="Explorar">
+                    <h2>Explorar</h2>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="bienes-raices.html">Bienes Raíces</a></li>
+                        <li><a href="https://sv.clasificados.st/index_ex">Todas las categorías</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+
+                <nav class="footer-col" aria-label="Ayuda">
+                    <h2>Ayuda</h2>
+                    <ul>
+                        <li><a href="https://sv.clasificados.st/ayuda" data-popup="450x400" data-name="AYUDA" target="_blank" rel="noopener">Ayuda</a></li>
+                        <li><a href="https://sv.clasificados.st/ayuda?t=6&amp;p=4" data-popup="450x400" data-name="¿Quiénes Somos?" target="_blank" rel="noopener">¿Quiénes somos?</a></li>
+                        <li><a href="https://sv.clasificados.st/ayuda?t=6" data-popup="450x400" data-name="AYUDA" target="_blank" rel="noopener">Condiciones de uso</a></li>
+                        <li><a href="https://sv.clasificados.st/ayuda?t=6&amp;p=5" data-popup="450x400" data-name="Política de Privacidad" target="_blank" rel="noopener">Política de privacidad</a></li>
+                    </ul>
+                </nav>
+
+                <nav class="footer-col" aria-label="Cuenta">
+                    <h2>Su cuenta</h2>
+                    <ul>
+                        <li><a rel="nofollow" href="https://sv.clasificados.st/login?orig=https://sv.clasificados.st/">Iniciar sesión</a></li>
+                        <li><a rel="nofollow" href="https://sv.clasificados.st/reg">Registro</a></li>
+                        <li><a href="https://sv.clasificados.st/ayuda?t=5&amp;p=3" data-popup="500x500" data-name="Enlázanos" target="_blank" rel="noopener">¡Enlázanos!</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    Clasificados.st NO se hace responsable de los anuncios publicados; esta responsabilidad
+                    es única y exclusivamente de sus autores.
+                    Alguna duda, sugerencia… <a href="contacto.html">contacte con nosotros</a>.
+                </p>
+                <a rel="nofollow" href="https://sv.clasificados.st/display/ancho">Vista PC (sitio original)</a>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>

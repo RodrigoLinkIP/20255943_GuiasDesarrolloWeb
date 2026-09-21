@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Anuncios de Compra Venta en El Salvador | Clasificados .ST</title>
+
+    <meta name="description" content="Anuncios Clasificados en El Salvador.">
+    <meta name="keywords" content="anuncios,clasificados,venta,vendo,compra,compro,avisos,auto,coche,moto,computadora,ordenador,movil,celular">
+
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script>document.documentElement.classList.add('js');</script>
+    <script src="scripts/script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Sprite de iconos (trazo monocromo) -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true" focusable="false">
+        <symbol id="i-house" viewBox="0 0 24 24"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></symbol>
+        <symbol id="i-car" viewBox="0 0 24 24"><path d="M5 17H3v-5l2-5h14l2 5v5h-2"/><path d="M3 12h18"/><circle cx="7.5" cy="17" r="1.8"/><circle cx="16.5" cy="17" r="1.8"/><path d="M9.3 17h5.4"/></symbol>
+        <symbol id="i-boat" viewBox="0 0 24 24"><path d="M3 16h18l-2.5 4h-13z"/><path d="M12 3v13"/><path d="M12 4l6 10h-6"/><path d="M11 7l-5 7h5"/></symbol>
+        <symbol id="i-plane" viewBox="0 0 24 24"><path d="M21 3L3 10l7 3 3 7z"/><path d="M10 13L21 3"/></symbol>
+        <symbol id="i-laptop" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="11" rx="2"/><path d="M2 20h20"/></symbol>
+        <symbol id="i-gamepad" viewBox="0 0 24 24"><rect x="2" y="8" width="20" height="10" rx="5"/><path d="M7 11v4M5 13h4"/><circle cx="15.5" cy="12" r="0.8"/><circle cx="18" cy="14" r="0.8"/></symbol>
+        <symbol id="i-phone" viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2.5"/><path d="M11 18h2"/></symbol>
+        <symbol id="i-tv" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="12" rx="2"/><path d="M8 21h8M12 17v4"/></symbol>
+        <symbol id="i-music" viewBox="0 0 24 24"><path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/></symbol>
+        <symbol id="i-camera" viewBox="0 0 24 24"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></symbol>
+        <symbol id="i-ball" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></symbol>
+        <symbol id="i-sofa" viewBox="0 0 24 24"><path d="M6 11V8a2 2 0 012-2h8a2 2 0 012 2v3"/><path d="M4 11a2 2 0 012 2v3h12v-3a2 2 0 012-2 2 2 0 012 2v5H2v-5a2 2 0 012-2z"/><path d="M6 19v2M18 19v2"/></symbol>
+        <symbol id="i-paw" viewBox="0 0 24 24"><circle cx="6" cy="10" r="1.8"/><circle cx="10" cy="6" r="1.8"/><circle cx="14" cy="6" r="1.8"/><circle cx="18" cy="10" r="1.8"/><path d="M12 12c-3 0-6 3-5 6 .7 2 3 2 5 1 2 1 4.3 1 5-1 1-3-2-6-5-6z"/></symbol>
+        <symbol id="i-coin" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/></symbol>
+        <symbol id="i-gem" viewBox="0 0 24 24"><path d="M6 4h12l4 5-10 12L2 9z"/><path d="M2 9h20M8 9l4 12 4-12"/></symbol>
+        <symbol id="i-dice" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="3"/><circle cx="9" cy="9" r="1"/><circle cx="15" cy="9" r="1"/><circle cx="12" cy="12" r="1"/><circle cx="9" cy="15" r="1"/><circle cx="15" cy="15" r="1"/></symbol>
+        <symbol id="i-palette" viewBox="0 0 24 24"><path d="M12 3a9 9 0 100 18c1.5 0 2-1 2-2 0-1.5-1-1.5-1-3s1-2 2.5-2H18a3 3 0 003-3c0-5-4-8-9-8z"/><circle cx="7.5" cy="11" r="1"/><circle cx="10" cy="7" r="1"/><circle cx="15" cy="7.5" r="1"/></symbol>
+        <symbol id="i-vase" viewBox="0 0 24 24"><path d="M9 3h6M10 3v3c-3 2-4 4-4 8a6 6 0 0012 0c0-4-1-6-4-8V3"/></symbol>
+        <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+        <symbol id="i-chevron" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></symbol>
+        <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+        <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+    </svg>
+
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+
+    <!-- =========================================================
+         HEADER
+    ========================================================== -->
+    <header class="site-header">
+        <div class="header-inner container">
+
+            <a class="brand" href="index.html" title="Ir a página de Inicio">
+                <span class="brand-name">clasificados<span class="brand-dot">.</span>st</span>
+                <span class="brand-country">El Salvador</span>
+            </a>
+
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Abrir menú">
+                <svg class="icon i-open" aria-hidden="true"><use href="#i-menu"/></svg>
+                <svg class="icon i-close" aria-hidden="true"><use href="#i-close"/></svg>
+            </button>
+
+            <div class="site-menu" id="site-menu">
+                <nav class="main-nav" aria-label="Principal">
+                    <a href="index.html" aria-current="page">Inicio</a>
+                    <a href="bienes-raices.html">Bienes Raíces</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+
+                <div class="header-actions">
+                    <a class="link-quiet" rel="nofollow" href="https://sv.clasificados.st/login?orig=https://sv.clasificados.st/">Iniciar sesión</a>
+                    <a class="btn btn-secondary btn-sm" rel="nofollow" href="https://sv.clasificados.st/reg">Registro</a>
+                    <a class="btn btn-primary btn-sm" href="#categorias">Publicar anuncio</a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+
+    <main id="contenido">
+
+        <!-- =====================================================
+             HERO
+        ====================================================== -->
+        <section class="hero container" aria-labelledby="hero-title">
+
+            <div class="hero-float">
+                <a class="float-card rise" style="--i:1" href="https://sv.clasificados.st/autos">
+                    <div class="float-tile"><svg class="icon" aria-hidden="true"><use href="#i-car"/></svg></div>
+                    <div class="float-meta">
+                        <strong>Autos</strong>
+                        <span>Carros, motos y repuestos</span>
+                    </div>
+                </a>
+
+                <a class="float-card rise" style="--i:2" href="bienes-raices.html">
+                    <div class="float-tile"><svg class="icon" aria-hidden="true"><use href="#i-house"/></svg></div>
+                    <div class="float-meta">
+                        <strong>Bienes Raíces</strong>
+                        <span>Casas, apartamentos y terrenos</span>
+                    </div>
+                </a>
+
+                <a class="float-card rise" style="--i:3" href="https://sv.clasificados.st/telefonia">
+                    <div class="float-tile"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg></div>
+                    <div class="float-meta">
+                        <strong>Telefonía</strong>
+                        <span>Celulares nuevos y usados</span>
+                    </div>
+                </a>
+
+                <a class="float-card rise" style="--i:4" href="https://sv.clasificados.st/computacion">
+                    <div class="float-tile"><svg class="icon" aria-hidden="true"><use href="#i-laptop"/></svg></div>
+                    <div class="float-meta">
+                        <strong>Computación</strong>
+                        <span>Laptops, monitores y accesorios</span>
+                    </div>
+                </a>
+            </div>
+
+            <h1 id="hero-title" class="rise" style="--i:5">Compra y venta de todo en El Salvador</h1>
+
+            <p class="hero-lead rise" style="--i:6">
+                Un sistema gratuito, rápido y simple de anuncios clasificados.
+                Publique sin registrarse.
+            </p>
+
+            <form id="search-form" class="search-pill rise" style="--i:7" role="search" action="#categorias">
+                <label class="sr-only" for="category-search">Buscar una categoría de anuncios</label>
+                <input
+                    id="category-search"
+                    type="search"
+                    name="q"
+                    placeholder="¿Qué está buscando? Autos, celulares, casas…"
+                    autocomplete="off"
+                >
+                <button class="search-submit" type="submit" aria-label="Buscar">
+                    <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
+                </button>
+            </form>
+
+            <p id="search-status" class="search-status" role="status" aria-live="polite"></p>
+
+            <div class="chip-row rise" style="--i:8" aria-label="Categorías populares">
+                <a class="chip" href="bienes-raices.html">
+                    <span class="chip-icon"><svg class="icon" aria-hidden="true"><use href="#i-house"/></svg></span>
+                    Bienes Raíces
+                </a>
+                <a class="chip" href="https://sv.clasificados.st/autos">
+                    <span class="chip-icon"><svg class="icon" aria-hidden="true"><use href="#i-car"/></svg></span>
+                    Autos
+                </a>
+                <a class="chip" href="https://sv.clasificados.st/computacion">
+                    <span class="chip-icon"><svg class="icon" aria-hidden="true"><use href="#i-laptop"/></svg></span>
+                    Computación
+                </a>
+                <a class="chip" href="https://sv.clasificados.st/telefonia">
+                    <span class="chip-icon"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg></span>
+                    Telefonía
+                </a>
+                <a class="chip" href="https://sv.clasificados.st/hogar">
+                    <span class="chip-icon"><svg class="icon" aria-hidden="true"><use href="#i-sofa"/></svg></span>
+                    Hogar
+                </a>
+                <a class="chip" href="https://sv.clasificados.st/deportes">
+                    <span class="chip-icon"><svg class="icon" aria-hidden="true"><use href="#i-ball"/></svg></span>
+                    Deportes
+                </a>
+                <a class="chip" href="https://sv.clasificados.st/animales">
+                    <span class="chip-icon"><svg class="icon" aria-hidden="true"><use href="#i-paw"/></svg></span>
+                    Animales
+                </a>
+                <a class="chip chip-text-only" href="#categorias">Ver todas</a>
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             CATEGORÍAS
+        ====================================================== -->
+        <section class="section container" aria-labelledby="categorias">
+
+            <div class="section-head">
+                <div>
+                    <h2 id="categorias">Elija una categoría</h2>
+                    <p class="section-sub">18 categorías para comprar, vender o publicar gratis su anuncio.</p>
+                </div>
+
+                <a class="section-link" href="https://sv.clasificados.st/index_ex">
+                    Ver todas las categorías y subcategorías
+                    <svg class="icon icon-md" aria-hidden="true"><use href="#i-chevron"/></svg>
+                </a>
+            </div>
+
+            <div class="cat-grid reveal-group">
+
+                <article class="cat-card reveal" data-keywords="casa casas apartamento apartamentos alquiler terreno terrenos vivienda inmueble">
+                    <div class="cat-tile"><svg class="icon" aria-hidden="true"><use href="#i-house"/></svg></div>
+                    <div class="cat-body">
+                        <h3 class="cat-title"><a href="bienes-raices.html">Bienes Raíces</a></h3>
+                        <p class="cat-desc">¿Quiere comprar o vender una casa, un apartamento o unos terrenos? ¿Está buscando un apartamento a buen precio o de alquiler? Entre aquí, publique gratis su anuncio y multiplique sus posibilidades de conseguir lo que quiere.</p>
+                        <span class="cat-more">Ver anuncios <svg class="icon icon-md" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+                    </div>
+                </article>
+
+                <article class="cat-card reveal" data-keywords="auto autos carro carros coche coches moto motos repuestos aros ruedas maquinaria agricola">
+                    <div class="cat-tile"><svg class="icon" aria-hidden="true"><use href="#i-car"/></svg></div>
+                    <div class="cat-body">
+                        <h3 class="cat-title"><a href="https://sv.clasificados.st/autos">Autos</a></h3>
+                        <p class="cat-desc">Compra y venta de autos y carros usados, motos y repuestos: aros, ruedas; maquinaria agrícola. ¡Entre, puede que encuentre lo que busca!</p>
+                        <span class="cat-more">Ver anuncios <svg class="icon icon-md" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+                    </div>
+                </article>
+
+                <article class="cat-card reveal" data-keywords="barco embarcacion lancha moto acuatica windsurf buceo">
+                    <div class="cat-tile"><svg class="icon" aria-hidden="true"><use href="#i-boat"/></svg></div>
+                    <div class="cat-body">
+                        <h3 class="cat-title"><a href="https://sv.clasificados.st/nautica">Náutica</a></h3>
+                        <p class="cat-desc">¿Quiere poner a la venta su barco o embarcación? ¿Busca una moto acuática, equipamiento de windsurf? ¿Quiere comprar un equipamiento completo de buceo? Entre y publique su anuncio.</p>
+                        <span class="cat-more">Ver anuncios <svg class="icon icon-md" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+                    </div>
+                </article>
+
+                <article class="cat-card reveal" data-keywords="avion avioneta ultraligero parapente vuelo">
+                    <div class="cat-tile"><svg class="icon" aria-hidden="true"><use href="#i-plane"/></svg></div>
+                    <div class="cat-body">
+                        <h3 class="cat-title"><a href="https://sv.clasificados.st/aeronautica">Aeronáutica / Aviación</a></h3>
+                        <p class="cat-desc">Avionetas, ultraligeros, vuelo sin motor, parapente, etc.</p>
+                        <span class="cat-more">Ver anuncios <svg class="icon icon-md" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+                    </div>
+                </article>
+
+                <article class="cat-card reveal" data-keywords="computadora computadoras ordenador laptop notebook pda monitor impresora">
+                    <div class="cat-tile"><svg class="icon" aria-hidden="true"><use href="#i-laptop"/></svg></div>
+                    <div class="cat-body">
+                        <h3 class="cat-title"><a href="https://sv.clasificados.st/computacion">Computación</a></h3>
+                        <p class="cat-desc">Compras y ventas de computadoras, laptops/notebooks, PDA, monitores, impresoras, accesorios para la computación…</p>
+                        <span class="cat-more">Ver anuncios <svg class="icon icon-md" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+                    </div>
+                </article>
+
+                <article class="cat-card reveal" data-keywords="playstation xbox nintendo consola juegos pc gaming">
+                    <div class="cat-tile"><svg class="icon" aria-hidden="true"><use href="#i-gamepad"/></svg></div>
+                    <div class="cat-body">
+                        <h3 class="cat-title"><a href="https://sv.clasificados.st/consolas_y_videojuegos">Consolas y Videojuegos</a></h3>
+                        <p class="cat-desc">Compra y venta de consolas de videojuegos, PlayStation, Xbox, Nintendo…; accesorios y juegos para todas las marcas; juegos para PC.</p>
+                        <span class="cat-more">Ver anuncios <svg class="icon icon-md" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+                    </div>
+                </article>
+
+                <article class="cat-card reveal" data-keywords="celular celulares movil moviles telefono smartphone">
+                    <div class="cat-tile"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg></div>
+                    <div class="cat-body">
+                        <h3 class="cat-title"><a href="https://sv.clasificados.st/telefonia">Telefonía Celular/Móvil</a></h3>
+                        <p class="cat-desc">¿Se ha quedado desfasado su teléfono móvil/celular y quiere venderlo para comprar otro? ¿Busca uno barato? En esta categoría encontrará lo que busca.</p>
+                        <span class="cat-more">Ver anuncios <svg class="icon icon-md" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+                    </div>
+                </article>
+
+                <article class="cat-card reveal" data-keywords="television televisor tv dvd mp3 peliculas audio video">
+                    <div class="cat-tile"><svg class="icon" aria-hidden="true"><use href="#i-tv"/></svg></div>
+                    <div class="cat-body">
+                        <h3 class="cat-title"><a href="https://sv.clasificados.st/imagen_y_sonido">Imagen y Sonido</a></h3>
+                        <p class="cat-desc">Equipos de video y sonido: televisores, reproductores de DVD, MP3, películas, etc.</p>
+                        <span class="cat-more">Ver anuncios <svg class="icon icon-md" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+                    </div>
+                </article>
+
+                <article class="cat-card reveal" data-keywords="guitarra piano bateria instrumentos discos musicos grupo partituras">
+                    <div class="cat-tile"><svg class="icon" aria-hidden="true"><use href="#i-music"/></svg></div>
+                    <div class="cat-body">
+                        <h3 class="cat-title"><a href="https://sv.clasificados.st/musica">Música e Instrumentos Musicales</a></h3>
+                        <p class="cat-desc">Compra y venta de instrumentos musicales y equipo para sonido profesional, discos, músicos que buscan grupo, partituras, etc.</p>
+                        <span class="cat-more">Ver anuncios <svg class="icon icon-md" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+                    </div>
+                </article>
+
+                <article class="cat-card reveal" data-keywords="camara camaras reflex video telescopio microscopio lentes">
+                    <div class="cat-tile"><svg class="icon" aria-hidden="true"><use href="#i-camera"/></svg></div>
+                    <div class="cat-body">
+                        <h3 class="cat-title"><a href="https://sv.clasificados.st/fotografia_y_optica">Fotografía y Óptica</a></h3>
+                        <p class="cat-desc">Compra y venta de cámaras digitales, réflex y accesorios para fotografía. Video digital e instrumentos ópticos (telescopios, microscopios…).</p>
+                        <span class="cat-more">Ver anuncios <svg class="icon icon-md" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+                    </div>
+                </article>
+
+                <article class="cat-card reveal" data-keywords="futbol tenis golf ciclismo bicicleta montana equipacion deportiva">
+                    <div class="cat-tile"><svg class="icon" aria-hidden="true"><use href="#i-ball"/></svg></div>
+                    <div class="cat-body">
+                        <h3 class="cat-title"><a href="https://sv.clasificados.st/deportes">Deportes</a></h3>
+                        <p class="cat-desc">Entre si desea comprar o vender accesorios para su deporte favorito: tenis, montaña, fútbol, golf, ciclismo… Todo tipo de equipación deportiva.</p>
+                        <span class="cat-more">Ver anuncios <svg class="icon icon-md" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+                    </div>
+                </article>
+
+                <article class="cat-card reveal" data-keywords="ropa muebles lavadora decoracion electrodomestico enseres">
+                    <div class="cat-tile"><svg class="icon" aria-hidden="true"><use href="#i-sofa"/></svg></div>
+                    <div class="cat-body">
+                        <h3 class="cat-title"><a href="https://sv.clasificados.st/hogar">Hogar / Enseres / Electrodomésticos / Ropa</a></h3>
+                        <p class="cat-desc">¿Busca ropa? ¿Está buscando un electrodoméstico o enseres del hogar a buen precio? ¿Quiere vender su lavadora? Ropa, muebles, artículos de decoración… todo en artículos para el hogar.</p>
+                        <span class="cat-more">Ver anuncios <svg class="icon icon-md" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+                    </div>
+                </article>
+
+                <article class="cat-card reveal" data-keywords="perro gato aves reptiles mascotas granja corral">
+                    <div class="cat-tile"><svg class="icon" aria-hidden="true"><use href="#i-paw"/></svg></div>
+                    <div class="cat-body">
+                        <h3 class="cat-title"><a href="https://sv.clasificados.st/animales">Animales</a></h3>
+                        <p class="cat-desc">Para encontrar anuncios de compra venta de animales, desde mascotas para su casa: perro, gato, aves, reptiles… hasta animales de corral/granja.</p>
+                        <span class="cat-more">Ver anuncios <svg class="icon icon-md" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+                    </div>
+                </article>
+
+                <article class="cat-card reveal" data-keywords="sellos monedas fosiles coleccion coleccionista">
+                    <div class="cat-tile"><svg class="icon" aria-hidden="true"><use href="#i-coin"/></svg></div>
+                    <div class="cat-body">
+                        <h3 class="cat-title"><a href="https://sv.clasificados.st/coleccionismo">Coleccionismo</a></h3>
+                        <p class="cat-desc">Si usted es un coleccionista de sellos, monedas, fósiles… ¡o de cualquier cosa! Aquí encontrará artículos de su interés.</p>
+                        <span class="cat-more">Ver anuncios <svg class="icon icon-md" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+                    </div>
+                </article>
+
+                <article class="cat-card reveal" data-keywords="reloj relojes joya joyas anillo oro plata">
+                    <div class="cat-tile"><svg class="icon" aria-hidden="true"><use href="#i-gem"/></svg></div>
+                    <div class="cat-body">
+                        <h3 class="cat-title"><a href="https://sv.clasificados.st/joyeria_y_relojeria">Joyería y Relojería</a></h3>
+                        <p class="cat-desc">Anuncios relacionados con el mundo de la joyería y relojería. Si quiere comprar o vender un reloj o bien una joya, esta es su categoría.</p>
+                        <span class="cat-more">Ver anuncios <svg class="icon icon-md" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+                    </div>
+                </article>
+
+                <article class="cat-card reveal" data-keywords="libros viajes aficiones tiempo libre mensajes felicitaciones">
+                    <div class="cat-tile"><svg class="icon" aria-hidden="true"><use href="#i-dice"/></svg></div>
+                    <div class="cat-body">
+                        <h3 class="cat-title"><a href="https://sv.clasificados.st/ocio">Ocio</a></h3>
+                        <p class="cat-desc">Actividades para el tiempo libre. ¿Le gusta leer? ¿Prepara un viaje y no quiere ir solo? ¿Quiere mandar un mensaje o felicitar a alguien? Mucha gente comparte sus mismas aficiones, intente encontrarlos aquí.</p>
+                        <span class="cat-more">Ver anuncios <svg class="icon icon-md" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+                    </div>
+                </article>
+
+                <article class="cat-card reveal" data-keywords="pinturas esculturas artesanias cuadros">
+                    <div class="cat-tile"><svg class="icon" aria-hidden="true"><use href="#i-palette"/></svg></div>
+                    <div class="cat-body">
+                        <h3 class="cat-title"><a href="https://sv.clasificados.st/arte_y_artesania">Arte y Artesanía</a></h3>
+                        <p class="cat-desc">Compra-venta de artículos de arte: pinturas, esculturas… y artesanía en muchos materiales.</p>
+                        <span class="cat-more">Ver anuncios <svg class="icon icon-md" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+                    </div>
+                </article>
+
+                <article class="cat-card reveal" data-keywords="arqueologia libros manuscritos muebles antiguos aparatos">
+                    <div class="cat-tile"><svg class="icon" aria-hidden="true"><use href="#i-vase"/></svg></div>
+                    <div class="cat-body">
+                        <h3 class="cat-title"><a href="https://sv.clasificados.st/antiguedades">Antigüedades y Objetos Antiguos</a></h3>
+                        <p class="cat-desc">Todo tipo de antigüedades: arqueología, libros, manuscritos, aparatos y muebles antiguos…</p>
+                        <span class="cat-more">Ver anuncios <svg class="icon icon-md" aria-hidden="true"><use href="#i-arrow"/></svg></span>
+                    </div>
+                </article>
+
+            </div>
+
+            <div id="cat-empty" class="empty-state" hidden>
+                <strong>No encontramos categorías con ese término</strong>
+                Pruebe con otra palabra o explore todas las categorías y subcategorías.
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             CÓMO FUNCIONA
+        ====================================================== -->
+        <section class="section container" aria-labelledby="como-funciona">
+
+            <div class="section-head">
+                <h2 id="como-funciona">Gratuito, rápido y simple</h2>
+            </div>
+
+            <div class="steps reveal-group">
+                <article class="step reveal">
+                    <div class="step-num">1</div>
+                    <h3>Elija una categoría</h3>
+                    <p>Encuentre la categoría que mejor describe lo que quiere comprar o vender.</p>
+                </article>
+
+                <article class="step reveal">
+                    <div class="step-num">2</div>
+                    <h3>Publique sin registrarse</h3>
+                    <p>No precisamos que se registre: no usamos sus datos ni correos con fines publicitarios.</p>
+                </article>
+
+                <article class="step reveal">
+                    <div class="step-num">3</div>
+                    <h3>Reciba contactos</h3>
+                    <p>Multiplique sus posibilidades de conseguir lo que quiere entre usuarios de todo el país.</p>
+                </article>
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             LLAMADA A LA ACCIÓN
+        ====================================================== -->
+        <section class="section container" aria-labelledby="cta-title">
+
+            <div class="cta-band reveal">
+                <div>
+                    <h2 id="cta-title">¿Tiene algo que vender?</h2>
+                    <p>Publique su anuncio gratis en la categoría que corresponda. Si tiene dudas o sugerencias, estamos a un mensaje de distancia.</p>
+                </div>
+
+                <div class="cta-actions">
+                    <a class="btn btn-light" href="#categorias">Elegir categoría</a>
+                    <a class="btn btn-outline-light" href="contacto.html">Contáctenos</a>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================================================
+         FOOTER
+    ========================================================== -->
+    <footer class="site-footer">
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <div class="footer-brand">
+                    <a class="brand" href="index.html">
+                        <span class="brand-name">clasificados<span class="brand-dot">.</span>st</span>
+                        <span class="brand-country">El Salvador</span>
+                    </a>
+                    <p>
+                        Clasificados.st es un sistema <strong>gratuito, rápido y simple</strong>
+                        de anuncios clasificados. No precisamos que se registre porque no usamos
+                        sus datos ni correos con fines publicitarios.
+                    </p>
+                </div>
+
+                <nav class="footer-col" aria-label="Explorar">
+                    <h2>Explorar</h2>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="bienes-raices.html">Bienes Raíces</a></li>
+                        <li><a href="https://sv.clasificados.st/index_ex">Todas las categorías</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+
+                <nav class="footer-col" aria-label="Ayuda">
+                    <h2>Ayuda</h2>
+                    <ul>
+                        <li><a href="https://sv.clasificados.st/ayuda" data-popup="450x400" data-name="AYUDA" target="_blank" rel="noopener">Ayuda</a></li>
+                        <li><a href="https://sv.clasificados.st/ayuda?t=6&amp;p=4" data-popup="450x400" data-name="¿Quiénes Somos?" target="_blank" rel="noopener">¿Quiénes somos?</a></li>
+                        <li><a href="https://sv.clasificados.st/ayuda?t=6" data-popup="450x400" data-name="AYUDA" target="_blank" rel="noopener">Condiciones de uso</a></li>
+                        <li><a href="https://sv.clasificados.st/ayuda?t=6&amp;p=5" data-popup="450x400" data-name="Política de Privacidad" target="_blank" rel="noopener">Política de privacidad</a></li>
+                    </ul>
+                </nav>
+
+                <nav class="footer-col" aria-label="Cuenta">
+                    <h2>Su cuenta</h2>
+                    <ul>
+                        <li><a rel="nofollow" href="https://sv.clasificados.st/login?orig=https://sv.clasificados.st/">Iniciar sesión</a></li>
+                        <li><a rel="nofollow" href="https://sv.clasificados.st/reg">Registro</a></li>
+                        <li><a href="https://sv.clasificados.st/ayuda?t=5&amp;p=3" data-popup="500x500" data-name="Enlázanos" target="_blank" rel="noopener">¡Enlázanos!</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    Clasificados.st NO se hace responsable de los anuncios publicados; esta responsabilidad
+                    es única y exclusivamente de sus autores.
+                    Alguna duda, sugerencia… <a href="contacto.html">contacte con nosotros</a>.
+                </p>
+                <a rel="nofollow" href="https://sv.clasificados.st/display/ancho">Vista PC (sitio original)</a>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
