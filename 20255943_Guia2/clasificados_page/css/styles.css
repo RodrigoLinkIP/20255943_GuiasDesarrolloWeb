@@ -784,8 +784,8 @@ textarea {
 
 .cat-card:hover,
 .cat-card:focus-within {
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-lg);
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-violet);
 }
 
 .cat-tile {
